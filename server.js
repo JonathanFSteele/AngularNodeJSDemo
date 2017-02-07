@@ -2,11 +2,7 @@ var express = require('express')
 var app = express()
 app.use(express.static('public'))
 
-var dbConfig = {
-  host: "HOST GOES HERE",
-  user: "USER GOES HERE",
-  password: "PASSWORD GOES HERE"
-};
+var dbConfig = require('./dbConfig');
 
 //ROUTES FOR API:
 var birds = require('./server/birds') //This is where the js file is.
