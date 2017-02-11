@@ -2,4 +2,7 @@
 	<h1>Charles Page</h1>
 
 	<p>{{ message }}</p>
+
+	<div ng-repeat="User in Users"> {{User.Username}} {{User.PhoneNumber}} </div>
+	First User is: {{Users[0].Username}}
 </div>
