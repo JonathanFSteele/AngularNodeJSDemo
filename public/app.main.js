@@ -6,4 +6,6 @@
 	  $scope.message = 'Everyone come and see how good I look!';
 
 	  $scope.fname = "Jonathan";
+
+		$scope.lastname = "Steele";
 	});

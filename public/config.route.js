@@ -2,12 +2,6 @@
 	scotchApp.config(function($routeProvider) {
 		$routeProvider
 
-			// route for the main page
-			.when('/', {
-				templateUrl : 'views/main.html',
-				controller  : 'mainController'
-			})
-
 			// route for the home page
 			.when('/', {
 				templateUrl : 'views/home.html',
